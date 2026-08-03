@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Model-Driven Development for Virtual Reality",
+  "description": "Showcase and interactive presentation website for Model-Driven Development for Virtual Reality by T-ReQS Group.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

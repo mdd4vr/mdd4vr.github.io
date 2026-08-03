@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-outfit {
+    font-family: 'Outfit', sans-serif;
+  }
+  .font-mono-code {
+    font-family: 'Fira Code', monospace;
+  }
+}
+
+/* Remove rounded corners everywhere except navigation bar */
+*:not(header):not(header *):not(nav):not(nav *) {
+  border-radius: 0 !important;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #062324;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #14595a;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1e787a;
+}
+
+/* Slide snap container styling */
+.slide-snap-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.slide-section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
